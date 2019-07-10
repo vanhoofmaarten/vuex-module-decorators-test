@@ -1,5 +1,5 @@
 {
-  "name": "vuex-module-decorators",
+  "name": "vuex-module-decorators-test",
   "version": "1.0.0",
   "description": "Nuxt starter for CodeSandBox",
   "author": "Nuxt.js Team",
@@ -12,9 +12,16 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/http": "^0.1.0",
+    "@nuxtjs/axios": "^5.5.4",
+    "normalize.css": "^8.0.1",
     "nuxt": "^2.5.1",
-    "reqlim": "^0.0.0"
+    "nuxt-property-decorator": "^2.3.0",
+    "reqlim": "^0.0.0",
+    "ts-node": "^8.3.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "vuex-module-decorators": "^0.9.9"
+  }
 }
